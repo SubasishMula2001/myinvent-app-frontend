@@ -50,7 +50,7 @@ const Home = () => {
              your business.</p>
              <div className='hero-buttons'>
                <button className="--btn --btn-secondary">
-              <Link to="/dashboard">Free Trial 1 Month </Link>
+              <Link to="/register">Free Trial 1 Month </Link>
               </button>
              </div>
 

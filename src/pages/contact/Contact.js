@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Card from "../../components/card/Card";
 import "./Contact.scss";
-import { FaPhoneAlt, FaEnvelope, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { toast } from "react-toastify";
 import axios from "axios";
@@ -61,16 +61,22 @@ const Contact = () => {
             <p>Fill the form or contact us via bellow details</p>
 
             <div className="icons">
-              <span>
+              {/* <span>
                 <FaPhoneAlt />
                 <a href="tel:+918327650092">
                 <p>+91 8327650092</p>
                 </a>
-              </span>
+              </span> */}
+              {/* <span>
+                <FaEnvelope />
+                <a href="mailto:contactdevdynamix@gmail.com">
+               <p>contactdevdynamix@gmail.com</p>
+                </a>
+              </span> */}
               <span>
                 <FaEnvelope />
-                <a href="mailto:subasishmula@gmail.com">
-               <p>subasishmula@gmail.com</p>
+                <a href="mailto:subasish.myinvent@gmail.com">
+                <p>subasish.myinvent@gmail.com</p>
                 </a>
               </span>
               <span>
@@ -78,8 +84,8 @@ const Contact = () => {
                 <p>Sabang, West Bengal, India</p>
               </span>
               <span>
-                <FaFacebook />
-                <a href="https://www.facebook.com/subasish.mula.2001/" target="blank">
+                <FaLinkedin />
+                <a href="https://www.linkedin.com/in/subasishmula/" target="blank">
                 <p>Subasish Mula</p>
                 </a>
               </span>
